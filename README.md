@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 =======
 Roundcube Webmail 
 =================
@@ -26,4 +26,4 @@ either version 3 of the License, or (at your option) any later version.
 
 
 
->>>>>>> 140b5e15605c6248faf58f9e8d5ec4c841a8987d
+
