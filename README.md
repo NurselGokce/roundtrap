@@ -2,7 +2,7 @@ Roundtrap Responsive Tema
 =================
 
 [roundcube.net](http://roundcube.net)
-[bootstrap](http://twitter.github.io/bootstrap/)
+
 
 Bu proje roundcube webmail uygulamasına bootstrap kullanarak responsive tema hazırlamak için oluşturulmuştur. 
 
@@ -10,7 +10,7 @@ BAŞLANGIÇ
 ---------
 
 Rouncube webmail sunucu üzerinde yer alan mailleri web üzerinden ulaşarak e-posta işlemlerinin gerçekleştirilebildiği IMAP mail servisi üzerinde bir web uygulamasıdır. Roundcube PHP ve Javascript ile yazılmış olup veritabanı olarak MYSQL,PostgreSQL or SQLite gerektiriyor. Kullanıcı arayüzü için XHTML ve CSS yorumlanmaktadır. Roundtrap uygulamasında ise amaçlanan roundcube içinde kullanılan CSS ve javascript'ler yerine bootstrap tarafından sağlanan CSS ve javascript'leri kullanarak bootstrap responsive tema hazırlamaktır. Bu kapsamda uygulama da kullanılan roundcube objeleri yerine bootstrap objeleri kullanılacaktır. 
-
+[bootstrap](http://twitter.github.io/bootstrap/)
 KURULUM
 -------
 
