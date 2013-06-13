@@ -1,0 +1,45 @@
+   <div class="nav-collapse collapse">
+  <ul class="nav nav-pills">
+ <li><roundcube:button command="compose" type="link" class="icon-flag" classAct="compose" classSel="compose pressed" label="compose" title="writenewmessage" /></li>
+      <li><roundcube:button command="reply" type="link" class="reply disabled" classAct="reply" classSel="reply pressed" label="reply" title="replytomessage" /></li>
+ <li><roundcube:button command="delete" type="link" class="delete disabled" classAct="delete" classSel="delete pressed" label="delete" title="deletemessage" /></li>
+
+<span class="dropbutton">
+	    <li>	<roundcube:button command="reply-all" type="link" class="reply-all disabled" classAct="reply-all" classSel="reply-all pressed" label="replyall" title="replytoallmessage" /></li>
+	<span class="dropbuttontip" id="replyallmenulink" onclick="UI.show_popup('replyallmenu');return false"></span>
+</span>
+
+<span class="dropbutton">
+  <li><roundcube:button command="forward" type="link" class="forward disabled" classAct="forward" classSel="forward pressed" label="forward" title="forwardmessage" /></li>
+	<span class="dropbuttontip" id="forwardmenulink" onclick="UI.show_popup('forwardmenu');return false"></span>
+</span>
+
+
+<!--  burası gidecek sonra -->
+<roundcube:if condition="template:name == 'message'" />
+      <li><roundcube:button command="print" type="link" class="print disabled" classAct="print" classSel="print pressed" label="print" title="printmessage" /></li>
+<roundcube:endif />
+
+
+
+<li><roundcube:button name="markmenulink" id="markmessagemenulink" type="link" class="markmessage" label="mark" title="markmessages" onclick="UI.show_popup('markmessagemenu');return false" /></li>
+
+   <li><roundcube:button name="messagemenulink" id="messagemenulink" type="link" class="more" label="more" title="moreactions" onclick="UI.show_popup('messagemenu');return false" /></li>
+
+
+</ul>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
